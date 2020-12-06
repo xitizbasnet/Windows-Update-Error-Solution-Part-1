@@ -1,0 +1,3 @@
+1st code: sc delete wuauserv
+
+2nd code: sc create wuauserv DisplayName= "Windows Update" binpath= "C:\WINDOWS\system32\svchost.exe -k netsvcs -p" Start= delayed-auto depend= RpcSs
